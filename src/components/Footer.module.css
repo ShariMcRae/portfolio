@@ -1,0 +1,8 @@
+footer a, footer a:visited {
+    color: rgb(137, 134, 134) !important;
+}
+
+footer a:hover, footer a:active {
+    color: black !important;
+}
+
