@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer";
 import styles from './Layout.module.css';
 
 // Provides the page layout with a navigation
@@ -21,7 +20,7 @@ export default function Layout() {
           <Outlet />
         </div>
       </main>
-      <Footer />
+
       
     </>
   );

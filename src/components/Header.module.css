@@ -1,0 +1,10 @@
+a, a:visited {
+    color: black !important;
+}
+
+a:hover, a:active {
+    color: rgb(70, 41, 233) !important;
+}
+
+
+
