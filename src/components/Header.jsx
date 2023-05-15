@@ -50,7 +50,8 @@ export default function Header() {
           <Offcanvas.Body>
             <h3>Shari McRae</h3>
             <Nav className="justify-content-end flex-grow-1 pt-3">
-              <Nav.Link href="about">About</Nav.Link>
+              <Nav.Link href="home">Home</Nav.Link>              
+              <Nav.Link href="resume">Resume</Nav.Link>
               <Nav.Link href="contact">Contact</Nav.Link>
               <NavDropdown
                 title="Projects"

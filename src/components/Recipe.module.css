@@ -7,3 +7,12 @@
   width: 100%;
   height: 80%;
 }  
+
+img.recipe {
+  width: 20rem;
+  background: white;
+  border-radius: .2rem;
+  object-fit: contain;
+  padding: 0rem;
+  border: 1px rgb(216, 214, 214) solid;
+}

@@ -13,16 +13,19 @@ import Default from "./components/Default";
 import Recipe from "./components/Recipe";
 import Another from "./components/Another";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+
 
 // Define our routes for React Router.
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Default />} />
-      <Route path="about" element={<Default />} />
+      <Route path="home" element={<Default />} />
+      <Route path="resume" element={<Resume />} />
       <Route path="contact" element={<Contact />} />
       <Route path="recipes" element={<Recipe />} />
       <Route path="another" element={<Another />} />

@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
-import styles from './Layout.module.css';
 
 // Provides the page layout with a navigation
 // pane on the left side of the page.
@@ -14,14 +13,11 @@ export default function Layout() {
       <header>
         <Header />
       </header>
-
-      <main className="p-3">
+      <main>
         <div className="container">
           <Outlet />
         </div>
       </main>
-
-      
     </>
   );
 }
