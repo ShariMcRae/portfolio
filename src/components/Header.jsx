@@ -15,8 +15,17 @@ import { FaGithub } from "react-icons/fa";
 export default function Header() {
   return (
     <Navbar expand={false} collapseOnSelect>
-      <Container fluid className="py-2 ps-3">
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
+      <Container fluid>
+        <Navbar.Toggle
+          aria-controls={`offcanvasNavbar-expand-${false}`}
+          style={{
+            backgroundSize: "0",
+            borderWidth: 1,
+            borderColor: "#b8aaaa",
+            backgroundColor: "#f2ecec",
+            padding: 3,
+          }}
+        />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${false}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
@@ -50,18 +59,21 @@ export default function Header() {
           <Offcanvas.Body>
             <h3>Shari McRae</h3>
             <Nav className="justify-content-end flex-grow-1 pt-3">
-              <Nav.Link href="home">Home</Nav.Link>              
-              <Nav.Link href="resume">Resume</Nav.Link>
-              <Nav.Link href="contact">Contact</Nav.Link>
+              <Nav.Link href="home">Home</Nav.Link>
+              <Link
+                style={{ textDecoration: 0 }}
+                to="https://docs.google.com/document/d/e/2PACX-1vS6nfmG85OwYyva6unZccU64GbGT86mUUWMDHLNgeLb08-G70yvlfaMiV0TZtpzqV4i06zI-V7bWjRD/pub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </Link>
               <NavDropdown
                 title="Projects"
                 id={`offcanvasNavbarDropdown-expand-${false}`}
               >
                 <NavDropdown.Item href="recipes" rel="noopener noreferrer">
                   Recipe Library
-                </NavDropdown.Item>
-                <NavDropdown.Item href="another" rel="noopener noreferrer">
-                  Another Project
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

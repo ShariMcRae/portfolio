@@ -3,8 +3,13 @@ a, a:visited {
 }
 
 a:hover, a:active {
-    color: rgb(70, 41, 233) !important;
-}
+    color: #b56666 !important;
+} 
+
+.test {
+    color: #b8aaaa !important;
+} 
+
 
 
 
