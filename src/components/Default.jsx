@@ -10,7 +10,7 @@ export default function Default() {
         alt="Shari McRae"
       />
       <h2 className="mt-4">Hi, I'm Shari.</h2>
-      <h5 className="w-75 mt-4">
+      <div className="w-50 mt-4 lh-lg">
         <p>
           I'm a full stack software developer based in Northwest Arkansas.
           <br />I enjoy studying human digital interactions and using my skills
@@ -27,7 +27,7 @@ export default function Default() {
           In my spare time I enjoy traveling in my van in search of new places
           to camp and swim.
         </p>
-      </h5>
+      </div>
     </div>
   );
 }

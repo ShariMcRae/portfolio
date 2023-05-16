@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Recipe() {
   return (
-    <div className={`${styles.projectPage}`}>
+    <div className={`${styles.projectPage} pt-2`}>
       <Link style={{ textDecoration: 0 }}
           to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes/7?q=&qType=0"
           target="_blank"
@@ -19,7 +19,7 @@ export default function Recipe() {
 
 
       <h2 className="mt-4 text-start">Recipe Library</h2>
-      <h6 className="w-75 mt-4 text-start">
+      <div className="w-75 mt-4 text-start lh-base">
         <p>Description:</p>
         <p>
           This project was a Front End Software Development bootcamp assignment.
@@ -34,10 +34,10 @@ export default function Recipe() {
           (coming soon) will hide the menu and make other adjustments for a more responsive UI. The user
           is warned if they try to exit the recipe edit page before saving. 
         </p>
-      </h6>
+      </div>
       <h6 className="w-75 mt-4">
         <Link style={{ textDecoration: 0 }}
-          to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes/7?q=&qType=0"
+          to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +48,7 @@ export default function Recipe() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub Repository
+          GitHub
         </Link>
       </h6>
     </div>
