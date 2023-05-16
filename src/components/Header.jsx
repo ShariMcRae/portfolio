@@ -68,14 +68,15 @@ export default function Header() {
               >
                 Resume
               </Link>
-              <NavDropdown
+              <Nav.Link href="recipes">Projects</Nav.Link>
+              {/* <NavDropdown
                 title="Projects"
                 id={`offcanvasNavbarDropdown-expand-${false}`}
               >
                 <NavDropdown.Item href="recipes" rel="noopener noreferrer">
                   Recipe Library
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

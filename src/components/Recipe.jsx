@@ -21,12 +21,12 @@ export default function Recipe() {
       </h5>
       <h5>
         {" "}
-        <Link
+        <Link style={{ textDecoration: 0 }}
           to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes/7?q=&qType=0"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit
+          Visit Website
         </Link>
       </h5>
     </div>
