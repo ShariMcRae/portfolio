@@ -1,5 +1,5 @@
 
-.centerOnPage {
+.projectPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +15,9 @@ img.recipe {
   object-fit: contain;
   padding: 0rem;
   border: 1px rgb(216, 214, 214) solid;
+}
+
+.projectDesc {
+  border-bottom:  1px rgb(216, 214, 214) solid;
+  padding-bottom: 2rem;
 }
