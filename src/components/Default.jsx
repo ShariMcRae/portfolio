@@ -18,7 +18,7 @@ export default function Default() {
         </p>
         <p>
           I received my Computer Science degree from the University of Arkansas
-          and have honed my skills over 3 decades. With a diverse skill set
+          and have honed my skills over two decades. With a diverse skill set
           including requirements gathering, systems architecture, database
           design, UX design and full stack development, I offer versatility and
           adaptability to any project.
