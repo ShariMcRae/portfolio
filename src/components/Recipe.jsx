@@ -6,7 +6,7 @@ export default function Recipe() {
   return (
     <div className={`${styles.projectPage} pt-2`}>
       <Link style={{ textDecoration: 0 }}
-          to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes/7?q=&qType=0"
+          to="https://main.d2le9b6o33rmma.amplifyapp.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,7 +37,7 @@ export default function Recipe() {
       </div>
       <h6 className="w-75 mt-4">
         <Link style={{ textDecoration: 0 }}
-          to="https://main.d2le9b6o33rmma.amplifyapp.com/recipes"
+          to="https://main.d2le9b6o33rmma.amplifyapp.com"
           target="_blank"
           rel="noopener noreferrer"
         >
