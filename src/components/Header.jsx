@@ -80,7 +80,7 @@ export default function Header() {
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
-        <Navbar.Brand href="#">
+        <Navbar.Brand>
           <Link aria-label="Twitter Link"
             to="https://twitter.com/ShariLMcRae"
             target="_blank"
