@@ -33,21 +33,21 @@ export default function Header() {
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-              <Link
+              <Link aria-label="Twitter Link"
                 to="https://twitter.com/ShariLMcRae"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaTwitter className="me-1" />
               </Link>
-              <Link
+              <Link aria-label="LinkedIn Link"
                 to="https://www.linkedin.com/in/shari-mcrae/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="me-1" />
               </Link>
-              <Link
+              <Link aria-label="GitHub Link"
                 to="https://github.com/ShariMcRae"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -81,21 +81,21 @@ export default function Header() {
           </Offcanvas.Body>
         </Navbar.Offcanvas>
         <Navbar.Brand href="#">
-          <Link
+          <Link aria-label="Twitter Link"
             to="https://twitter.com/ShariLMcRae"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter size={20} className="me-2" />
           </Link>
-          <Link
+          <Link aria-label="LinkedIn Link"
             to="https://www.linkedin.com/in/shari-mcrae/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin size={20} className="me-2" />
           </Link>
-          <Link
+          <Link aria-label="GitHub Link"
             to="https://github.com/ShariMcRae"
             target="_blank"
             rel="noopener noreferrer"
