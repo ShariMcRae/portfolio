@@ -10,7 +10,8 @@ export default function Footer() {
         <Nav.Link href="home" className="me-3">
           Home
         </Nav.Link>
-        <Link className="me-3"
+        <Link
+          className="me-3"
           style={{ textDecoration: 0 }}
           to="https://docs.google.com/document/d/e/2PACX-1vS6nfmG85OwYyva6unZccU64GbGT86mUUWMDHLNgeLb08-G70yvlfaMiV0TZtpzqV4i06zI-V7bWjRD/pub"
           target="_blank"
@@ -18,7 +19,7 @@ export default function Footer() {
         >
           Resume
         </Link>
-        <Nav.Link href="recipes">Projects</Nav.Link> 
+        <Nav.Link href="recipes">Projects</Nav.Link>
       </div>
       <img
         src={process.env.PUBLIC_URL + "/footer.png"}

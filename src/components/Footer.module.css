@@ -1,8 +1,7 @@
-
 .centerOnPage {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 1rem;
   border-top: 1px solid #b8aaaa;
-}  
+}

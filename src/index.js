@@ -18,7 +18,6 @@ import Resume from "./components/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
-
 // Define our routes for React Router.
 const router = createBrowserRouter(
   createRoutesFromElements(

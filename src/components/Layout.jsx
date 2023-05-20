@@ -11,17 +11,13 @@ export default function Layout() {
   // and an outlet on the right for updating the page content.
   return (
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <main>
         <div className="container">
           <Outlet />
         </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
