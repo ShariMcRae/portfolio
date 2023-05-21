@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="text-center">
+    <div className="text-center" style={{backgroundColor: "#faf7f7"}}>
       <div className={styles.centerOnPage}>
-        <Nav.Link href="home" className="me-3">
+        {/* <Nav.Link href="home" className="me-3">
           Home
         </Nav.Link>
         <Link
@@ -19,7 +19,7 @@ export default function Footer() {
         >
           Resume
         </Link>
-        <Nav.Link href="recipes">Projects</Nav.Link>
+        <Nav.Link href="recipes">Projects</Nav.Link> */}
       </div>
       <img
         src={process.env.PUBLIC_URL + "/footer.png"}

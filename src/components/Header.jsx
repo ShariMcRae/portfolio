@@ -13,8 +13,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header>
-      <Navbar sticky="top" expand={false} collapseOnSelect>
+      <Navbar expand={false} collapseOnSelect>
         <Container fluid>
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-${false}`}
@@ -24,16 +23,17 @@ export default function Header() {
               borderColor: "#b8aaaa",
               backgroundColor: "#f2ecec",
               padding: 3,
+              marginTop: 8
             }}
           />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
-            placement="start"
+            placement="start" 
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-                <Link
+                <Link 
                   aria-label="Twitter Link"
                   to="https://twitter.com/ShariLMcRae"
                   target="_blank"
@@ -83,7 +83,7 @@ export default function Header() {
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-          <Navbar.Brand>
+          <Navbar.Brand style={{padding:0, margin:0, lineHeight:.5}}>
             <Link
               aria-label="Twitter Link"
               to="https://twitter.com/ShariLMcRae"
@@ -111,6 +111,5 @@ export default function Header() {
           </Navbar.Brand>
         </Container>
       </Navbar>
-    </header>
   );
 }

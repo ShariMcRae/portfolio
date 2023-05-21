@@ -11,13 +11,17 @@ export default function Layout() {
   // and an outlet on the right for updating the page content.
   return (
     <>
-      <Header />
-      <main>
-        <div className="container">
+      <header className="container fixed-top">
+        <Header/>
+      </header>
+      <main className="p-5 pb-3">
+        <div className="container pt-3">
           <Outlet />
         </div>
       </main>
-      <Footer />
+      <footer className="fixed-bottom">
+        <Footer />
+      </footer>
     </>
   );
 }

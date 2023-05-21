@@ -3,17 +3,17 @@ import styles from "./Default.module.css";
 
 export default function Default() {
   return (
-    <div className={`${styles.centerOnPage} text-center`}>
+    <div className={`${styles.centerOnPage}`}>
       <img
         className={`${styles.me} rounded-circle`}
         src={process.env.PUBLIC_URL + "/me2.jpg"}
         alt="Shari McRae"
       />
       <h2 className="mt-4">Hi, I'm Shari.</h2>
-      <div className="w-50 mt-4 lh-lg">
+      <div className="w-75 mt-3 mb-5 lh-lg ps-3">
         <p>
           I'm a full stack software developer based in Northwest Arkansas.
-          <br />I enjoy studying human digital interactions and using my skills
+          I enjoy studying human digital interactions and using my skills
           to create user experiences that make life easier.
         </p>
         <p>
