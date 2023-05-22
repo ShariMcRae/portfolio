@@ -16,7 +16,7 @@ export default function Layout() {
         <Header/>
       </header>
       <main className={`${styles.portfolioMain} p-5 pb-4`}>
-        <div className="pt-5">
+        <div className="">
           <Outlet />
         </div>
       </main>

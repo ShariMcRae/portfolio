@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 // Include links to the demo and GitHub repository.
 export default function Recipe() {
   return (
-    <div className={`${styles.projectPage}`}>
+    <div className={`${styles.projectPage} mt-4`}>
       <Link
         to="https://main.d2le9b6o33rmma.amplifyapp.com"
         target="_blank"

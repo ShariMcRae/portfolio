@@ -7,11 +7,12 @@
 }
 
 .menuBody {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 .menuHeader {
   background-color: var(--primary-color) !important; 
+  border-bottom: var(--border-color);
 }
 
 .menuTitle {
