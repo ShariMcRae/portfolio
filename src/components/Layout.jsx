@@ -2,19 +2,19 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import styles from "./Layout.module.css";
 
-// Provides the page layout with a navigation
-// pane on the left side of the page.
 export default function Layout() {
-  // Render the overall page layout/structure with menu
-  // on the left, a dividing line that can be used to hide/show the menu,
-  // and an outlet on the right for updating the page content.
+
+  // Define the page structure/layout with a fixed
+  // header/footer and React Router Outlet for
+  // dynamically replacing the page content.
   return (
     <>
-      <header className="container fixed-top">
+      <header className={`${styles.portfolioHeader} container fixed-top`}>
         <Header/>
       </header>
-      <main className="p-5 pb-3">
+      <main className={`${styles.portfolioMain} p-5 pb-4`}>
         <div className="container pt-3">
           <Outlet />
         </div>

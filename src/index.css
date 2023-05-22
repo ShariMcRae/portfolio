@@ -1,25 +1,26 @@
+
+:root {
+  --primary-color: #f1eaea;
+  --secondary-color: blue;
+  --border-color: 1px solid #b8aaaa;
+  --link-active-color: #b56666 !important;
+  --link-color: black !important;
+  --background-color: white;
+}
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   font-family: Cambria, ‘Hoefler Text’, Utopia, ‘Liberation Serif’,
     ‘Nimbus Roman No9 L Regular’, Times, ‘Times New Roman’, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-main {
-  background-color: white;
-  padding-bottom: 3rem;
+
+a, a:visited {
+  color: var(--link-color);
+  text-decoration: 0;
 }
 
-header {
-  background-color: white;
-}
+a:hover, a:active {
+  color: var(--link-active-color);
+} 
 
-code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
-  font-family: Cambria, ‘Hoefler Text’, Utopia, ‘Liberation Serif’,
-    ‘Nimbus Roman No9 L Regular’, Times, ‘Times New Roman’, serif;
-}

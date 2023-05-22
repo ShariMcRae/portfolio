@@ -9,7 +9,7 @@ import {
 
 import Layout from "./components/Layout";
 import NoPage from "./components/NoPage";
-import Default from "./components/Default";
+import About from "./components/About";
 import Recipe from "./components/Recipe";
 import Another from "./components/Another";
 import Contact from "./components/Contact";
@@ -22,8 +22,8 @@ import "./index.css";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route index element={<Default />} />
-      <Route path="home" element={<Default />} />
+      <Route index element={<About />} />
+      <Route path="about" element={<About />} />
       <Route path="resume" element={<Resume />} />
       <Route path="contact" element={<Contact />} />
       <Route path="recipes" element={<Recipe />} />

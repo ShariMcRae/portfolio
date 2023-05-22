@@ -6,7 +6,6 @@ export default function Recipe() {
   return (
     <div className={`${styles.projectPage}`}>
       <Link
-        style={{ textDecoration: 0 }}
         to="https://main.d2le9b6o33rmma.amplifyapp.com"
         target="_blank"
         rel="noopener noreferrer"
@@ -19,24 +18,27 @@ export default function Recipe() {
       </Link>
 
       <h2 className="mt-4 text-start">Recipe Library</h2>
-      <div className="w-75 mt-2 mb-5 text-start">
-        <p>Description:</p>
+      <div className="w-75 mt-2 mb-5 text-start lh-lg ">
+        
         <p>
           This project was a Front End Software Development bootcamp assignment.
-          The goal was to create a React application that accesses an API,
-          performs all CRUD operations and uses both React Router and React
-          Bootstrap.
         </p>
-        <p>Features:</p>
-        <p className={styles.projectDesc}>
+        
+        <p>          
+          The assignment was to create a responsive single page React application 
+          that accessed a RESTful API and performed all CRUD operations. Other 
+          requirements were to provide client-side routing via React Router 
+          and styling via React Bootstrap.
+        </p>
+        
+        <p>
           The Recipe Library allows users to create, edit and delete recipes
-          stored in a database hosted by MockAPI.com. The menu allows users to
-          search and filter recipes by type. The user is warned if they try to
-          exit the recipe edit page before saving.
+          via a mock API I created at MockAPI.com. Users may
+          search and filter recipes by type and are warned when leaving
+          the recipe edit page if there are unsaved changes.
         </p>
         <p className="w-100 text-center pt-2">
           <Link
-            style={{ textDecoration: 0 }}
             to="https://main.d2le9b6o33rmma.amplifyapp.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +46,6 @@ export default function Recipe() {
             Visit Website
           </Link>
           <Link
-            style={{ textDecoration: 0 }}
             className="ms-3"
             to="https://github.com/ShariMcRae/recipes"
             target="_blank"

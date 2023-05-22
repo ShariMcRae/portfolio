@@ -1,15 +1,10 @@
-a, a:visited {
-    color: black !important;
+.portfolioHeader {
+  background-size: 0;
+  border-width: 1;
+  border-color: var(--border-color) !important;
+  background-color: var(--primary-color) !important;
+  padding: 3;
+  margin-top: 1rem;
 }
-
-a:hover, a:active {
-    color: #b56666 !important;
-} 
-
-.test {
-    color: #b8aaaa !important;
-} 
-
-
 
 

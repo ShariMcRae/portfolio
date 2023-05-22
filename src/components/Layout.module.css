@@ -1,0 +1,8 @@
+.portFolioMain {
+  background-color: var(--background-color);
+  padding-bottom: 3rem;
+}
+
+.portFolioHeader {
+  background-color: var(--background-color);
+}

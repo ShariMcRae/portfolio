@@ -1,6 +1,7 @@
 import React from "react";
-import { Offcanvas } from "react-bootstrap";
+import { NavDropdown, Offcanvas } from "react-bootstrap";
 
+import styles from "./Header.module.css";
 import "./Header.module.css";
 
 import Container from "react-bootstrap/Container";
@@ -11,20 +12,16 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
+// Define page Header with a React Bootstrap Off-Canvas menu 
+// on the left side and social media links on the right 
+// using Font Awesome icons.
 export default function Header() {
   return (
       <Navbar expand={false} collapseOnSelect>
         <Container fluid>
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-${false}`}
-            style={{
-              backgroundSize: "0",
-              borderWidth: 1,
-              borderColor: "#b8aaaa",
-              backgroundColor: "#f2ecec",
-              padding: 3,
-              marginTop: 8
-            }}
+            className={`${styles.portfolioHeader}`}
           />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}
@@ -62,28 +59,26 @@ export default function Header() {
             <Offcanvas.Body>
               <h3>Shari McRae</h3>
               <Nav className="justify-content-end flex-grow-1 pt-3">
-                <Nav.Link href="home">Home</Nav.Link>
+                <Nav.Link href="about">About</Nav.Link>
                 <Link
-                  style={{ textDecoration: 0 }}
                   to="https://docs.google.com/document/d/e/2PACX-1vS6nfmG85OwYyva6unZccU64GbGT86mUUWMDHLNgeLb08-G70yvlfaMiV0TZtpzqV4i06zI-V7bWjRD/pub"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Resume
                 </Link>
-                <Nav.Link href="recipes">Projects</Nav.Link>
-                {/* <NavDropdown
-                title="Projects"
-                id={`offcanvasNavbarDropdown-expand-${false}`}
-              >
+                <NavDropdown
+                  title="Projects"
+                  id={`offcanvasNavbarDropdown-expand-${false}`}
+                >
                 <NavDropdown.Item href="recipes" rel="noopener noreferrer">
                   Recipe Library
                 </NavDropdown.Item>
-              </NavDropdown> */}
+              </NavDropdown> 
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-          <Navbar.Brand style={{padding:0, margin:0, lineHeight:.5}}>
+          <Navbar.Brand>
             <Link
               aria-label="Twitter Link"
               to="https://twitter.com/ShariLMcRae"
