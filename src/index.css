@@ -24,3 +24,6 @@ a:hover, a:active {
   color: var(--link-active-color);
 } 
 
+a.dropdown-item:hover {
+  background-color: var(--primary-color);
+}

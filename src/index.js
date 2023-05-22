@@ -11,9 +11,7 @@ import Layout from "./components/Layout";
 import NoPage from "./components/NoPage";
 import About from "./components/About";
 import Recipe from "./components/Recipe";
-import Another from "./components/Another";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
@@ -24,10 +22,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route index element={<About />} />
       <Route path="about" element={<About />} />
-      <Route path="resume" element={<Resume />} />
       <Route path="contact" element={<Contact />} />
       <Route path="recipes" element={<Recipe />} />
-      <Route path="another" element={<Another />} />
       <Route path="*" element={<NoPage />} />
     </Route>
   )

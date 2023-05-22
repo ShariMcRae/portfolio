@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./About.module.css";
 
+// Display a photo and a description of
+// myself with a focus on my skills and interests.
 export default function About() {
   return (
     <div className={`${styles.centerOnPage}`}>

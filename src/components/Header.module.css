@@ -3,8 +3,22 @@
   border-width: 1;
   border-color: var(--border-color) !important;
   background-color: var(--primary-color) !important;
-  padding: 3;
   margin-top: 1rem;
 }
 
+.menuBody {
+  font-size: 20pt;
+}
 
+.menuHeader {
+  background-color: var(--primary-color) !important; 
+}
+
+.menuTitle {
+  font-size: 22pt;
+}
+
+.subMenu {
+  text-align: center;
+  font-size: 14pt;
+}
