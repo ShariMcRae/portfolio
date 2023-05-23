@@ -9,6 +9,7 @@ import styles from "./Header.module.css";
 import "./Header.module.css";
 
 import SocialMediaLinks from "./SocialMediaLinks";
+import { FaTwitter } from "react-icons/fa";
 
 // Define page Header with a React Bootstrap Off-Canvas menu
 // on the left side and social media links on the right

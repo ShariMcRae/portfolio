@@ -31,7 +31,7 @@ export default function Recipe() {
             </p>
             <p>
               The assignment was to create a responsive single page React
-              application that accessed a RESTful API and performed all CRUD
+              application that accesses a RESTful API and performs all CRUD
               operations. Other requirements were to provide client-side routing
               via React Router and styling via React Bootstrap.
             </p>

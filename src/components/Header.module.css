@@ -1,8 +1,8 @@
 .portfolioHeader {
   background-size: 0;
-  border-width: 1;
-  border-color: var(--border-color) !important;
-  background-color: var(--primary-color) !important;
+  border-width: 0;
+  border-color: var(--background-color) !important;
+  background-color: var(--background-color) !important;
   margin-top: 1rem;
 }
 

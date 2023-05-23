@@ -30,7 +30,7 @@ export default function About() {
             </p>
             <p>
               In my spare time I enjoy traveling in my van in search of new
-              places to camp and swim.
+              places to explore.
             </p>
           </div>
           <div className="col-md-2 col-lg-3"></div>
