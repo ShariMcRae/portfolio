@@ -3,7 +3,7 @@
   border-width: 0;
   border-color: var(--background-color) !important;
   background-color: var(--background-color) !important;
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 .menuBody {
