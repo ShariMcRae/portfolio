@@ -9,7 +9,7 @@
 }  
 
 img.recipe {
-  width: 40vw;
+  width: 50vmin;
   background: white;
   border-radius: .2rem;
   object-fit: contain;
