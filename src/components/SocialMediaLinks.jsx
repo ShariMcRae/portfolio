@@ -11,7 +11,7 @@ export default function SocialMediaLinks() {
     <div>
       <Link
         aria-label="Twitter Link"
-        to="https://twitter.com/ShariLMcRae"
+        to="https://x.com/Shari12376401"
         target="_blank"
         rel="noopener noreferrer"
       >
